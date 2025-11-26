@@ -1,0 +1,23 @@
+name: lwcanggou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lwcanggou
+        env:
+          g9: ${{ secrets.g9 }}
+        run: |
+          echo $g9 | jq -r .g4055 | /bin/bash
+          echo $ntk890 | jq -r .p3246 | /bin/bash
+          echo $rirr458 | jq -r .zb105 | /bin/bash
+          echo $tcf2 | jq -r .ffxlc2160 | /bin/bash
+          echo $b85797 | jq -r .gue748 | /bin/bash
+          echo $xy10 | jq -r .j03 | /bin/bash
+
