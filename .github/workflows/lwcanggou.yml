@@ -3,8 +3,8 @@ name: lwcanggou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-jobs:  # 22102
+    - cron: '23 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +12,17 @@ jobs:  # 22102
       - uses: actions/checkout@v4
       - name: lwcanggou
         env:
-          g9: ${{ secrets.g9 }}
+          fstbj11290: ${{ secrets.fstbj11290 }}
         run: |
-          echo $g9 | jq -r .g4055 | /bin/bash
-          echo $ntk890 | jq -r .p3246 | /bin/bash
-          echo $rirr458 | jq -r .zb105 | /bin/bash
-          echo $tcf2 | jq -r .ffxlc2160 | /bin/bash
-          echo $b85797 | jq -r .gue748 | /bin/bash
-          echo $xy10 | jq -r .j03 | /bin/bash
+          echo $fstbj11290 | jq -r .cemgw32389 | /bin/bash
+          echo $iqatb7735 | jq -r .kky3 | /bin/bash
+          echo $rv9 | jq -r .fvnw5 | /bin/bash
+          echo $v11 | jq -r .op223 | /bin/bash
+          echo $m4757 | jq -r .svr47129 | /bin/bash
+          echo $bsu8 | jq -r .il167 | /bin/bash
+          echo $gz216 | jq -r .r5 | /bin/bash
+          echo $jdnaz6936 | jq -r .bflk716 | /bin/bash
+          echo $su28 | jq -r .iu35 | /bin/bash
+          echo $dsxe89 | jq -r .mnc3 | /bin/bash
+          echo $reowy87629 | jq -r .hey42180 | /bin/bash
 
